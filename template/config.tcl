@@ -15,7 +15,7 @@ set ::env(PL_RESIZER_BUFFER_OUTPUT_PORTS) 0
 set ::env(SYNTH_READ_BLACKBOX_LIB) 1
 
 # read all verilog files
-set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/*.v]
+set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/*.{sv,v}]
 
 # absolute die size
 set ::env(FP_SIZING) absolute
